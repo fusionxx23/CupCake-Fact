@@ -8,19 +8,39 @@
 }
 .cupcake__container {
     height: 90%; 
-    color: pink; 
+    color: rgb(255, 78, 154); 
+    position: relative; 
     display: flex; 
     justify-content: center; 
     align-items: center; 
     flex-direction: column; 
     animation-name: cupcakeAnim; 
     animation-duration: 2s; 
+
+}
+.cupcake__rotator {
+    border-radius: 150px; 
+    padding: 100px; 
+    animation-name: cupcake; 
+    animation-duration: 800ms; 
+    animation-iteration-count: 6; 
+    animation-timing-function: linear; 
+    border: 2px solid #ccc; 
+    border-top-color: blue;  
+}
+.fa-birthday-cake {
+    position: absolute; 
 }
 
 @keyframes cupcakeAnim {
     20% {color: rgb(122, 122, 255);} 
-    40% {color: rgb(255, 44, 255);} 
-    60% {color: rgb(65, 255, 65);}
-    80% {color:rgb(255, 237, 102);}
-    100% {color: rgb(255, 174, 187);}
+    40% {color: rgb(255, 44, 44); } 
+    60% {color: rgb(65, 255, 65);   }
+    80% {color:rgb(255, 237, 101);  }
+    100% {color: rgb(255, 78, 154); }
+}
+@keyframes cupcake {
+    from{tranfrom: rotate(0deg);} 
+    to{transform: rotate(360deg);}
+
 }
