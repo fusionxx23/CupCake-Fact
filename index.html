@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Cupcake Factory</title>
+
+</head>
+<body>
+   <div class='search-overlay' >
+
+            <div class="form-group container">
+           
+                <div class="form__items">
+                   <input type="search" id='search-input' class="form-control d-inline" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Search . . .">
+                <span class='text-right mr-auto text-white d-inline' id='btnCloseSearch'><i class="py-0 fas fa-lg fa-times"></i></span>
+                </div>
+               
+             
+                
+            </div>
+    </div>
+
+    <div class="cart-overlay p-4">
+      <div class="text-right">
+          <span class='  text-white d-inline' id='btnCloseCart'><i class="py-0 px-4 fas fa-lg fa-times"></i></span>
+      </div>
+      
+      <h1 class='cart-subtitle'>Your Items: </h1>
+      <h2>Display Items Here *</h2>
+
+    </div>
+   
+    <div id='main'>
+      
+  
+        <div class="container logo">
+                
+                <div class="row align-items-center">
+                  <div class="col">
+                        <button class="d-lg-none text-black navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                                <i class="fas fa-bars"></i>
+                        </button>
+                  </div>
+                  <div class="col text-center pt-3">
+                    <a class="text-center" id="logo" href="#">
+                
+                      <img class='img-fluid' id='logo-img' src="images/CupcakeFact-logo.png" alt="">
+                    </a>
+                  </div>
+                  <div class="col text-right">
+                    <a href="#" class='side-a text-black'  id="btnSearch">SEARCH</a>
+                    <a href="#" class='side-a text-black' id='btnCart'>CART(0)</a>
+                  </div>
+                </div>
+            
+             
+
+            </div>
+            <div class="container-fluid cont-nav sticky-top" id='cont-nav'>
+                <nav class="navbar navbar-expand-lg sticky-top navbar-light p-0">
+                
+        
+                    
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav text-center mx-auto">
+                                  <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                                  </li>    <li class="nav-item inactive">
+                                        <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                                  </li>
+        
+                                  <li class="nav-item inactive text-white">
+                                        <a class="nav-link" href="#">Locations<span class="sr-only">(current)</span></a>
+                                  </li>
+                                  <li class="nav-item inactive">
+                                        <a class="nav-link" href="#">Events<span class="sr-only">(current)</span></a>
+                                  </li>
+
+                                  <li class="nav-item inactive">
+                                      <a class="nav-link" href="#">News<span class="sr-only">(current)</span></a>
+                                  </li>
+                                </ul>
+
+                                
+                        </div>
+
+
+                        
+                </nav>
+            </div>
+ 
+
+<div class="container-fluid">
+        <div class="row p-0">
+            <div class="col p-0">
+                    <img class='img-fluid' src="images/xmas-cupcakes.jpg">
+            </div>
+        
+        </div>
+        
+    </div>
+<footer>
+<div class="container-fluid">
+
+  <div class="sect-1 py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 py-3">
+                <h2 class='footheader'>About</h2>
+                <p>Cupcake factory was the founding father of cupcakes in LA</p>
+              </div>
+          
+              <div class="col-sm-12 col-md-6 footer-menu column text-center" >
+                <h2 class='footheader'>Footer Menu</h2>
+                <ul >
+                  <li><a class='foot-link' href="#">Home</a></li>
+                  <li><a class='foot-link' href="#">About</a></li>
+                  <li><a class='foot-link' href="#">Events</a></li>
+                  <li><a class='foot-link' href="#">Locations</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-12 col-md-8 py-3">
+                <h2 class="footheader">
+                  Newsletter
+                </h2>
+                <p>Sign up to receive updates and deals from CupCake Factory!</p>
+               
+                    <form action="email ">
+                        <div class="form-group">
+                            <input type="search" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                          </div>
+                          <button type="submit" class="btn btn-dark">Submit</button>
+                    </form>
+              
+                
+          
+              </div>
+        </div>
+
+    </div>
+      
+      
+    
+
+    
+  </div>
+
+
+  <div class="sect-2 py-3">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col text-center">
+                <span class='copyright'><i class="far fa-copyright"></i> Cupcake Factory LA</span>
+            </div>
+            <div class="col text-center">
+                <a href="#"><i class="fab fa-instagram fa-lg"></i></a> 
+            </div>
+        </div>
+    </div>
+ 
+  
+  </div>
+
+</div>
+
+
+
+</footer>
+
+</div>
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" src='nav.js'></script>
+</html>

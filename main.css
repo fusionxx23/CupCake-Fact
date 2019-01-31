@@ -1,0 +1,170 @@
+#logo {
+    max-height: 50px; 
+}
+#logo-img {
+    max-height: 165px; 
+}
+h2.footheader {
+    font-size: 1rem; 
+}
+#main {
+    position: relative; 
+}
+
+#logo-text {
+    display: block; 
+    margin-right: auto; 
+    margin-left: auto; 
+    text-align: center; 
+    color: black; 
+    font-size: 0.9rem; 
+}
+.foot-link{
+   color: white; 
+}
+body {
+    background-color: white;
+}
+.cont-nav {
+    background-color: white;
+    margin-bottom: 10px; 
+}
+.black {
+    background-color: black; 
+}
+#search-input  {
+    width: 95%;
+    background-color: black; 
+    border: none; 
+    color: white;  
+    outline: none; 
+    font-size: 1.2rem; 
+}
+input {
+    outline: none; 
+}
+#search-input.form-control {
+    box-shadow: none!important;}
+#cart {
+    text-decoration: none;
+}
+#btnSearch{
+    text-decoration: none;
+    cursor: pointer; 
+}
+#btnCloseSearch {
+    cursor: pointer; 
+}
+.side-a{
+    
+    color: black; 
+    font-family: 'Work Sans', sans-serif;
+    margin: 10px;
+    font-size: 0.9rem; 
+}
+
+
+.inactive {
+    transition: all 200ms ease;
+}
+@media only screen and (min-width: 960px) {
+    .inactive:hover {
+        border-bottom: 2px solid black;  
+    }
+}
+
+
+.nav-item {
+    font-size: 1.1rem; 
+    margin-right: 20px; 
+    margin-left: 20px; 
+    color: black; 
+}
+.nav-link {
+    color: black; 
+}
+.active {
+    border-bottom: 2px solid black; 
+}
+.footer-menu ul {
+    list-style: none;
+    padding-left: 0; 
+}
+footer {
+    background-color: black; 
+    color: white; 
+    border-top: 2px solid white; 
+}
+
+.sect-1 {
+    border-bottom: 2px solid white;  
+    
+}
+
+span.copyright {
+    font-size: 0.9rem;
+}
+@media only screen and (max-width: 767px) {
+.column {
+    border-top: 1px solid white; 
+    padding-top: 20px;
+    padding-bottom: 10px; 
+    border-bottom: 1px solid white; 
+}
+}
+
+#close-search {
+    cursor: pointer; 
+}
+.search-overlay {
+   
+        height: 100%; /* 100% Full-height */
+        width: 100%; /* 0 width - change this with JavaScript */
+        position: fixed;
+        opacity: 0; 
+        visibility: hidden;
+         /* Stay in place */
+        z-index: 1; /* Stay on top */
+         /* Stay at the top */
+        background-color: black; /* Black*/
+        overflow: hidden; /* Disable horizontal scroll */
+        padding-top: 30px; /* Place content 60px from the top */
+        transition: all ease-in-out 400ms; 
+ /* 0.5 second transition effect to slide in the sidenav */
+}
+.no-scroll {
+    overflow: hidden; 
+}
+
+.search__active {
+    opacity: 1; 
+    visibility: visible;  
+}
+
+
+
+.cart-overlay {
+    height: 100%; 
+    width: 0px;
+    top: 0; 
+    right: -300px; 
+    position: fixed; 
+    z-index: 1; 
+    background-color: black; 
+    transition: all ease-in-out 300ms; 
+    padding-top: 0; 
+    overflow-x: hidden; 
+    color: white; 
+}
+#btnCloseCart {
+    cursor: pointer; 
+}
+.cart-subtitle {
+    font-size: 1rem; 
+    border-bottom: 1px solid white; 
+}
+.cart__active {
+    
+    right: 0px; 
+    width: 300px; 
+}
