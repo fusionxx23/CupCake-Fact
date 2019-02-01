@@ -3,7 +3,7 @@
     width: 100%; 
     position: fixed; 
     background: black; 
-    z-index: 2; 
+    z-index: 3000; 
     transition: all 1s ease;
 }
 .cupcake__container {
@@ -21,12 +21,12 @@
 .cupcake__rotator {
     border-radius: 150px; 
     padding: 100px; 
-    animation-name: cupcake; 
-    animation-duration: 800ms; 
-    animation-iteration-count: 6; 
+    animation-name: cupcake, cupcakeBorderColors; 
+    animation-duration: 2s; 
+    animation-iteration-count: 1; 
     animation-timing-function: linear; 
     border: 2px solid #ccc; 
-    border-top-color: blue;  
+    border-top-color:rgb(255, 78, 154); 
 }
 .fa-birthday-cake {
     position: absolute; 
@@ -39,8 +39,15 @@
     80% {color:rgb(255, 237, 101);  }
     100% {color: rgb(255, 78, 154); }
 }
+@keyframes cupcakeBorderColors {
+    20% {border-top-color: rgb(122, 122, 255);} 
+    40% {border-top-color: rgb(255, 44, 44); } 
+    60% {border-top-color: rgb(65, 255, 65);   }
+    80% {border-top-color:rgb(255, 237, 101);  }
+    100% {border-top-color: rgb(255, 78, 154); }
+}
+
 @keyframes cupcake {
     from{tranfrom: rotate(0deg);} 
     to{transform: rotate(360deg);}
-
 }
